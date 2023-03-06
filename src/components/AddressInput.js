@@ -12,7 +12,7 @@ function AddressInput({ map, collapse, updateCurrLocPin }) {
           placeholder="Address"
         ></input>
         <select id="state" className="section_half_field">
-          <option>CO</option>
+          <option>TX</option>
         </select>
         <input
           id="zip"

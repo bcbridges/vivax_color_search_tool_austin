@@ -12,10 +12,10 @@ function Map({ displayPins, map, setMap, currLocPin }) {
   return (
     <>
       <MapContainer
-        center={[39.73313, -105.01491]}
-        zoom={16}
+        center={[30.32846969080846, -97.7385087]}
+        zoom={13}
         // make minZoom smaller to allow greater 'zoom-out'
-        minZoom={13}
+        minZoom={11}
         scrollWheelZoom={true}
         ref={setMap}
         className="map_container"
@@ -24,9 +24,9 @@ function Map({ displayPins, map, setMap, currLocPin }) {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker position={[39.73313, -105.01491]} icon={VivaxIcon}>
+        <Marker position={[30.32846969080846, -97.7385087]} icon={VivaxIcon}>
           <Popup>
-            Vivax Pros <br /> 1050 Yuma St, Denver, CO 80204
+            Vivax Pros <br /> 1704 Houston St., Austin, TX 78756
           </Popup>
         </Marker>
         <Marker
